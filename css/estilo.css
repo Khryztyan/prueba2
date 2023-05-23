@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+body#principal{
+    background-color: #feefdd;
+}
+body#general{
+    background-image: url(../img/Diseño\ sin\ título.png);   
+    background-repeat: repeat-y;
+}
+.pie-pagina{
+    background-color: #feefdd;
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+}
+.pie-pagina .red-social a{
+    text-decoration: none;
+    width: 15px;
+    height: 25PX;
+    color: black; 
+    margin-right: 30px;  
+    margin: 10px;
+}
+.pie-pagina .red-social a:hover{
+    background-color:#50b2c0;
+    width: 15px;
+    height: 15px;
+}
+.red-social{
+    height: 40px;
+}
+.logo1{
+    text-align: center;   
+}
+.logo1 img{
+  width: 40%;
+}
+.logo1 :hover{
+    background-color:#50b2c0;
+    border-radius: 50%;
+}
+.logoback{
+    width: 70px;
+    float: left;
+    padding: 05px 0px 10px 05px;
+}
+.menu{
+    width: 100%;
+    margin: 10px auto;
+}
+header{
+    width: 100%;
+    clear: both;
+    content:"" ;
+    display: table;
+    background:#faaa8d;
+}
+nav{
+    float: right;
+    padding-right: 150px;
+   
+}
+nav ul li{
+    list-style: none;
+    margin-left: 55px;
+    float: left;
+    padding: 15px 0; 
+    position: relative;   
+}
+nav ul li a{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+li a:hover {
+    background-color:#50b2c0;
+    border-radius: 50%;
+}
+main{
+    margin: 25px;
+}
+.caja{
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+.parrafo1{
+    line-height: 1.5;
+    padding: 20px;
+}
+.parrafo2{
+    line-height: 1.5;
+    padding: 20px;
+}
+.imagen img{
+    width: 80%;
+    padding: 20px;
+    margin: 50px;
+}
+.fotos img{
+    width: 95%;
+    padding: 20px;
+}
+.fotos{
+    display: flex;
+    padding: 10px;
+    opacity: 0.8;   
+}
+.fotos:hover{
+    opacity: 1;
+}
+.nosotros{
+    border: black 2.5px solid;
+}
+video{
+    width: 350px;
+    height: 350px;
+    padding: 5px;
+    border: black solid;
+    margin: 20px 20px;
+}
+fieldset{
+    width: 300px;
+    background-color: #feefdd;
+    margin: 20px;
+    
+}
+.form label, .form input, .form textarea{
+    width: 95%;
+    margin: 5px;    
+}
+.Compromisos{
+    background-color: #feefdd;
+    width: 500px;
+    border: black solid;
+    margin: 20px;
+}
+.Compromisos li{
+    margin: 25px;
+    
+}
+.Compromisos h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
